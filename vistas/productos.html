@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../estilos/styles.css">
 </head>
 <body>
@@ -35,19 +37,22 @@
 
             <section class="productos__contenedor">
                 <article class="productos__cont1">
-                    <div class="productos__card">
+                    <div class="productos__card" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <img src="../assets/productos/productos_ejemplo.jpg" alt="">
-                        <h2>Título</h2>
+                        <h2>Marcador Predictivo</h2>
                         <p>Descripción del artículo</p>
                     </div>
-                    <div class="productos__card">
+                    <div class="productos__card" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <img src="../assets/productos/productos_ejemplo.jpg" alt="">
-                        <h2>Título</h2>
+                        <h2>Reportes Integrados</h2>
                         <p>Descripción del artículo</p>
                     </div>
-                    <div class="productos__card">
+                    <div class="productos__card" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <img src="../assets/productos/productos_ejemplo.jpg" alt="">
-                        <h2>Título</h2>
+                        <h2>IVR y Autogestión</h2>
                         <p>Descripción del artículo</p>
                     </div>
                 </article>    
@@ -84,6 +89,9 @@
     </footer>
     
 
-    </div>     
+    </div>
+    <script>
+        AOS.init();
+    </script>     
 </body>
 </html>
