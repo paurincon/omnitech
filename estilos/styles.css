@@ -52,6 +52,7 @@ ul {
     right: 0px;
     top: 0px;
     display: flex;
+    flex-wrap: wrap;
    
 }
 
@@ -131,6 +132,11 @@ ul {
 
 .propuesta__col img{
     width: 100%;
+}
+
+.propuesta__col h3{
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .flip-in-ver-right {
@@ -482,66 +488,44 @@ ul {
     object-fit: cover;
 }
 
-.form{
-    background-color:rgba(211, 211, 211, 0.733);
-    width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin:620px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 30px;
-    border-radius: 6px;
-    
-}
-
-.campos{
-    align-content: center;
-    color: #4d4d4d;
-    font-size: 1rem;
-    font-weight: 600;
-}
 
 .campos--btn{
     padding-top:30px;
-}
-
-.input{
+    padding-bottom: 30px;
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    max-width: 500px;
-    height: 40px;
-    padding: 9px 10px;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 22px;
-    color: #33475b;
-    border: 1px solid #cbd6e2;
-    box-sizing: border-box;
-    border-radius: 3px;
-
+    justify-content: end;
+    gap: 10px;
 }
 
-.input--check{
-    flex-direction: row;
-}
 
 .btn-form{
     
-    width: 210px;
+    width: 158px;
     height: 45px;
     background-color: #0074b5;
     color: white;
     border: 1px solid #0074b5;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 1.2rem;
-
-
+    font-size: 1rem;
+    
 }
+
+.form-select{
+    margin-bottom: 1rem;
+}
+
+.container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 20px
+}
+
+.form-select-sm {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+} 
 
 .info-oficinas{
     display: flex;
