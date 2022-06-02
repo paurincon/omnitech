@@ -285,7 +285,7 @@ ul {
 
 .quienessomos__section2{
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 115px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -354,7 +354,7 @@ ul {
 }
 
 .hero-productos button{
-    width: 210px;
+    width: 150px;
     height: 45px;
     margin-left: 90px;
     background-color: #0074b5;
@@ -366,34 +366,6 @@ ul {
 }
 
   
-
-.productos__contenedor{
-    display: flex;
-    flex-wrap: wrap;
-    gap:10px;
-    justify-content: space-around;
-    padding-top: 10px;
-    margin-bottom: 10%;
-       
-}
-
-.productos__cont1{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
-
-.productos__card{
-    width: 350;
-    height: 550;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-   
-}
-  
-
 .productos__card h2{
     color: #004468;
 }
@@ -420,6 +392,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    border: none;
     
 
 }
@@ -451,28 +424,18 @@ ul {
     object-fit: cover;
 }
 
-
-.campos--btn{
-    padding-top:30px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: end;
-    gap: 10px;
-}
-
-
-.btn-form{
-    
-    width: 158px;
+.btn{
+    width: 110px;
     height: 45px;
+    margin-left: 90px;
     background-color: #0074b5;
     color: white;
     border: 1px solid #0074b5;
     border-radius: 4px;
     font-weight: 600;
-    font-size: 1rem;
-    
+    font-size: 1.2rem;
 }
+
 
 .form-select{
     margin-bottom: 1rem;
@@ -673,29 +636,7 @@ ul {
     margin-top: 5%;
 }
 
-.productos__contenedor{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10%;
-       
-}
 
-.productos__cont1{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    width: 100%;
-}
-
-.productos__card{
-    padding-bottom: 30px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between; 
-    
-   
-}
 
 .productos__card h2{
     color: #004468;
@@ -704,7 +645,6 @@ ul {
 .productos__card img{
     width: 100%;
     height: auto;
-    align-items: flex-end;
     margin: 10%;
    
 }
@@ -729,6 +669,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    border: none;
     
 
 }
@@ -1065,6 +1006,11 @@ ul {
   
 }
 
+.quienessomos__section3 {
+    display: none;
+}
+
+
 /*PRODUCTOS*/
 
 .hero-productos{
@@ -1110,30 +1056,6 @@ ul {
     margin-top: 8%;
 }
 
-.productos__contenedor{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10%;
-       
-}
-
-.productos__cont1{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    width: 100%;
-}
-
-.productos__card{
-    padding-bottom: 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between; 
-    margin-left: 10%;
-    
-   
-}
 
 .productos__card h2{
     color: #004468;
@@ -1165,6 +1087,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-between; 
+    border: none;
     
 
 }
@@ -1196,6 +1119,7 @@ ul {
 }
 
 
+
 /*CONTACTO*/
 
 .form{
@@ -1213,27 +1137,11 @@ ul {
     
 }
 
-.campos--btn{
-    padding: 30px;
-    
-
+.btn {
+    margin-left: 0;
 }
 
 
-
-.btn-form{
-    
-    width: 170px;
-    height: 45px;
-    background-color: #0074b5;
-    color: white;
-    border: 1px solid #0074b5;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 5%;
-    
-}
 
 .info-oficinas{
     display: flex;
