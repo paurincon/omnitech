@@ -20,7 +20,6 @@ ul {
         font-weight: 600;
     }
 
-/*ESTILOS HEADER*/
 
 .grid{
     display:grid;
@@ -32,86 +31,50 @@ ul {
 
 }
 
-.header{
-    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
-    padding: 20px 50px;
-     
-    }
+/*ESTILOS HEADER*/
 
-.header__nav{
-    padding: 10px 30px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.navbar-nav {
+    --bs-nav-link-color: whitesmoke;
+    --bs-nav-link-hover-color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+
+.nav-item{
+    font-size: 1.2rem;
     
 }
 
-
-.header__list{
-    right: 0px;
-    top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-
-.header__item{
-    display: inline-block;
-    margin: 20px 10px; 
-  
-}
-
-.header__anchor{
-    font-weight: 800;
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: none;
+.navbar-toggler-icon {
+      background-image: url("../assets/iconos/list-white.svg");
 }
 
 /*END ESTILOS HEADER*/
 
 /*ESTILOS SLIDER*/
-    
-.slider{
-    overflow: hidden;
-    position: relative;
-    background-image: url("../assets/slider/imagen-principal.png");
-    height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom:50px;
-    display: grid;
-    
 
+.carousel {
+    margin-bottom: 100px;
+}
+    
+.carousel-caption{
+    padding-bottom: 11rem;
 }
 
-.slider__article{         
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        place-items: center;
-    
-
-}
-
-.slider__h1{
+.carousel-caption h1{
     font-weight: 600;
     font-size: 3.8rem;
-    color: white;
-    text-align: center;
-   
- 
 }
 
-.slider__p{
+.carousel-caption p{
     font-size: 1.6rem;
-    color: white;
-    text-align: center;
 }
-
 /*END ESTILOS SLIDER*/
 
 /*ESTILOS PROPUESTA*/
@@ -540,7 +503,6 @@ ul {
 
 /*MEDIA QUERIES min-width=desde  max-width=hasta*/ 
 
-
 /*MEDIA QUERIE PARA TABLETS 768px*/
 
 @media screen and (max-width:768px) {
@@ -548,19 +510,20 @@ ul {
 /*HOME*/  
 /*Main*/  
 /*Sección Slider*/ 
-    .slider__h1{
-        font-size: 2rem;
-               
-     
-    }
-    
-    .slider__p{
-        font-size: 1rem;
-        margin-left: 10%;
-        margin-right: 10%;
-        
-    }
 
+.carousel-caption{
+    padding-bottom: 3rem;
+}
+
+.carousel-caption h1{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.carousel-caption p{
+    font-size: 1rem;
+}
+    
 /*Sección Propuesta*/   
 
     .propuesta{
@@ -901,58 +864,30 @@ ul {
 
 /*Header*/
 
-    .header{
-        padding: 20px 10px;
-        overflow: hidden;
-        flex-wrap: wrap;
-    }
-
-    .header__nav{
-        padding: 10px 10px;
-        justify-content: center;
-        flex-direction: column;
-       
-    }
-    
-    .header__nav img{
-        height: auto;
-        width: 50%;
-        flex-direction: column;
-    }
-    
-    .header__list{
-        flex-wrap: wrap;
-        
-       
-    }
-    
-    .header__item{
-        display: inline-block;
-        margin: 20px 10px; 
-      
-    }
-    
-    .header__anchor{
-        font-weight: 800;
-        font-size: 1rem;
-        color: white;
-        text-decoration: none;
-    }
+.header img{
+    height: auto;
+    width: 150px;
+}
+   
 
 /*Main*/
 /*Sección Slider*/   
-         
-    .slider__h1{
-            font-size: 2rem;
-                   
-         
-        }
-        
-     .slider__p{
-            font-size: 1rem;
-            
+
+    .carousel-caption{
+        padding-bottom: 40px;
         }
 
+    .carousel-caption h1{
+        font-weight: 600;
+        font-size: 1.2rem;
+        
+        }
+
+    .carousel-caption p{
+        display: none;
+        }
+
+         
 /*Sección Propuesta*/           
     
      .propuesta{
@@ -1034,7 +969,7 @@ ul {
         position:relative;
         bottom:10px;
         height: auto;
-        width: 50%;
+        width: 150px;
         }
 
     .footer__list{
