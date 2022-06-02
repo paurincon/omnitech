@@ -370,6 +370,10 @@ ul {
     color: #004468;
 }
 
+.productos__card p{
+    width: 18rem;
+}
+
 
 
 /*END ESTILOS PRODUCTOS*/
@@ -641,6 +645,12 @@ ul {
 .productos__card h2{
     color: #004468;
 }
+
+.productos__card p{
+    width: 13rem;
+}
+
+
     
 .productos__card img{
     width: 100%;
@@ -1060,6 +1070,7 @@ ul {
 .productos__card h2{
     color: #004468;
 }
+
     
 .productos__card img{
     width: 80%;
