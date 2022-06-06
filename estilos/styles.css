@@ -14,6 +14,7 @@ ul {
 
     p{
         font-weight: 400;
+        
     }
     
     h1{
@@ -379,9 +380,7 @@ ul {
     color: #004468;
 }
 
-.productos__card p{
-    width: 18rem;
-}
+
 
 
 
@@ -1019,6 +1018,7 @@ ul {
     flex-wrap: nowrap;
     justify-content: space-around;
     row-gap: 10%;
+    align-items: center;
 
 }
 
@@ -1108,6 +1108,15 @@ ul {
 
 .productostitulo p{
     display: none;
+}
+
+.productos__contenedor{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    
 }
 
 .productos__card h2{
