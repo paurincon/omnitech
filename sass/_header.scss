@@ -1,0 +1,21 @@
+.navbar-nav {
+    --bs-nav-link-color: whitesmoke;
+    --bs-nav-link-hover-color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    
+}
+
+.navbar-toggler-icon {
+      background-image: url("../assets/iconos/list-white.svg");
+}

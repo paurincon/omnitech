@@ -1,0 +1,39 @@
+.footer{
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    padding: 20px 50px;
+
+    nav{
+        padding: 10px 30px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items:flex-end;
+
+        img{
+            position:relative;
+            bottom:50px;
+        }
+         
+
+        .footer__list{
+            display:inline-block;
+            padding-left: 70px;
+
+            .footer__anchor{
+                color: white;
+                text-decoration: none;
+            }
+         
+        }
+
+        .footer__listoficinas{
+            display: inline-block;
+            color: white;
+            padding-left: 70px;
+        
+        }
+    }
+   
+
+}

@@ -1,0 +1,129 @@
+.carousel {
+    margin-bottom: 50px;
+
+    .carousel-caption{
+        padding-bottom: 11rem;
+    }
+
+    h1{
+        font-weight: 600;
+        font-size: 3.8rem;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+
+}
+    
+/*END ESTILOS SLIDER*/
+
+/*ESTILOS PROPUESTA*/
+
+.hometitulo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+
+    h1{
+        color: $colorTítulos;
+        font-size: $tamañoTitulos;
+        margin-bottom: 30px;
+    }
+
+    p{
+        color: colorParrafos;
+        font-size: $tamañoBajada;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 5%;
+    
+    }
+    
+}
+
+
+.propuesta{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    .propuesta__col{
+        display: inline-block;
+        color: #004468;
+
+
+        img{
+            width: 100%;
+        }
+        
+        h3{
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+                
+        .propuesta__desc{
+            color: $colorParrafos;
+            width: 20rem;
+            margin-left: 10px;
+        }
+        
+         
+    }
+    
+}
+
+/*END ESTILOS PROPUESTA*/
+
+/*ESTILOS VIDEO INSTITUCIONAL*/
+
+.video-institucional{
+    background-image:url(../assets/background-abstract.png); 
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    padding: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+
+
+    .video-institucional__desc{
+        width: 20%;
+
+        h1{
+            color: $colorTítulos;
+            font-size: $tamañoTitulos;
+            line-height: 100%;
+            margin-bottom: 20px;
+            width: 450px;
+        
+        }
+        
+        p{
+            font-size: $tamañoBajada;
+        
+        
+        }
+        
+        .bold{
+            font-weight: bold;
+            color: #004468;
+        }
+            
+    }
+
+    .video{
+        width: 20%;
+        display: inline-block;
+    
+    }
+    
+}
+   
+/*END ESTILOS VIDEO INSTITUCIONAL*/
