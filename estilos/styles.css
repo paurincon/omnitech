@@ -21,10 +21,12 @@ h1 {
   --bs-nav-link-color: whitesmoke;
   --bs-nav-link-hover-color: white; }
 
-.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
   color: white; }
 
-.nav-link:focus, .nav-link:hover {
+.nav-link:focus,
+.nav-link:hover {
   color: white; }
 
 .nav-item {
@@ -278,11 +280,18 @@ h1 {
   padding-left: 100px;
   padding-right: 100px; }
 
-.productos__card h2 {
+.productos__card h3 {
   color: #004468; }
 
 /*END ESTILOS PRODUCTOS*/
 /*ESTILOS NOVEDADES*/
+.novedades__titulo {
+  color: #004468;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 1.8rem; }
+
 .contenedor {
   display: flex;
   flex-wrap: wrap;
@@ -484,7 +493,7 @@ h1 {
     font-weight: 600; }
   .productostitulo p {
     font-size: 1.4rem; }
-  .productos__card h2 {
+  .productos__card h3 {
     color: #004468; }
   .productos__card p {
     width: 13rem; }
@@ -493,6 +502,12 @@ h1 {
     height: auto;
     margin: 10%; }
   /*NOVEDADES 768px*/
+  .novedades__titulo {
+    color: #004468;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%; }
   .contenedor {
     display: grid;
     grid-template-columns: 1fr;
@@ -779,7 +794,7 @@ h1 {
     align-content: center;
     align-items: center;
     width: 50%; }
-  .productos__card h2 {
+  .productos__card h3 {
     color: #004468;
     font-weight: bold;
     text-align: center; }
@@ -792,6 +807,9 @@ h1 {
     align-content: center;
     margin: 10%; }
   /*NOVEDADES 480px*/
+  .novedades__titulo {
+    color: #004468;
+    font-size: 1.5rem; }
   .contenedor {
     display: grid;
     grid-template-columns: 1fr;
