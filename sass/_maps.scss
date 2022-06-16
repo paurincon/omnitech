@@ -1,0 +1,10 @@
+$enfasis: (
+    "azul": #345d9d,
+    "azul-oscuro": #004468,
+
+);
+
+.diferencial {
+   color: map-get($map: $enfasis, $key: azul);
+
+}

@@ -1,0 +1,13 @@
+@mixin font-size($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+
+}
+
+.tamaño-titulo {
+    @include font-size(3rem, 600);
+}
+
+.tamaño-parrafo {
+    @include font-size(3rem, 600);
+}
