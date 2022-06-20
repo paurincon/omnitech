@@ -4,10 +4,28 @@
 
 }
 
+//Tamaño titulos
 .tamaño-titulo {
     @include font-size(3rem, 600);
 }
 
-.tamaño-parrafo {
-    @include font-size(3rem, 600);
+//Tamaño bajadas
+.tamaño-bajada {
+    @include font-size(1.5rem, 400);
 }
+
+//Tamaño diferencial h3
+.diferencial {
+    @include font-size(1.3rem, 700);
+}
+
+//Tamaño parrafo
+.tamaño-parrafo {
+    @include font-size(1rem, 400);
+}
+
+//Tamaño subtitulo
+.tamaño-subtitulo{
+    @include font-size(1.5rem, 600);
+}
+

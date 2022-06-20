@@ -1,7 +1,5 @@
 .novedades__titulo {
     color: #004468;
-    font-weight: bold;
-    font-size: 3rem;
     text-align: center;
     margin-top: 1.8rem;
 
@@ -18,6 +16,7 @@
         display: flex;
         justify-content: space-around;
         gap: 20px;
+        width: 70%;
 
         .card {
             width: 30%;
@@ -28,8 +27,8 @@
             align-content: center;
             border: none;
 
-            .card h4 {
-                color: #004468;
+            .card__h4 {
+                color: $colorTítulos;
                 width: 20rem;
                 align-content: flex-start;
                 margin-top: 10px;

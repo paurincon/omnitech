@@ -63,7 +63,6 @@ h1 {
     margin-bottom: 30px; }
   .hometitulo p {
     color: colorParrafos;
-    font-size: 1.5rem;
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 50px; }
@@ -83,8 +82,6 @@ h1 {
     .propuesta .propuesta__col img {
       width: 100%; }
     .propuesta .propuesta__col h3 {
-      font-size: 1.3rem;
-      font-weight: bold;
       margin-top: 10px;
       margin-left: 10px; }
     .propuesta .propuesta__col .propuesta__desc {
@@ -111,8 +108,6 @@ h1 {
       margin-bottom: 20px;
       line-height: 100%;
       width: 450px; }
-    .video-institucional .video-institucional__desc p {
-      font-size: 1.5rem; }
     .video-institucional .video-institucional__desc .bold {
       font-weight: bold;
       color: #004468; }
@@ -159,8 +154,20 @@ h1 {
   font-size: 3rem;
   font-weight: 600; }
 
+.tamaño-bajada {
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+.diferencial {
+  font-size: 1.3rem;
+  font-weight: 700; }
+
 .tamaño-parrafo {
-  font-size: 3rem;
+  font-size: 1rem;
+  font-weight: 400; }
+
+.tamaño-subtitulo {
+  font-size: 1.5rem;
   font-weight: 600; }
 
 .diferencial {
@@ -230,7 +237,7 @@ h1 {
     height: 30%;
     width: 30%; }
   /*QUIENES SOMOS 768px*/
-  .quienessomos__section .quienessomos__titulo h2 {
+  .quienessomos__section .quienessomos__titulo .quienessomos__h1 {
     color: #004468;
     font-size: 2rem;
     text-align: center;
@@ -255,8 +262,7 @@ h1 {
     .quienessomos__section2 .quienessomos__icon {
       width: 50px;
       height: 50px; }
-  .quienessomos__section3 .quienessomos__titulo h2 {
-    color: #004468;
+  .quienessomos__section3 .quienessomos__titulo .quienessomos__h2 {
     font-size: 2rem;
     text-align: center;
     margin-left: 10%;
@@ -307,7 +313,6 @@ h1 {
     margin-left: -25px; }
   /*NOVEDADES 768px*/
   .novedades .novedades__titulo {
-    color: #004468;
     font-size: 2rem;
     text-align: center;
     margin-left: 10%;
@@ -489,8 +494,7 @@ h1 {
       justify-content: center;
       margin-top: 30px;
       margin-bottom: 30px; }
-      .quienessomos__section .quienessomos__titulo .quienessomos__titulo h2 {
-        color: #004468;
+      .quienessomos__section .quienessomos__titulo .quienessomos__h1 {
         font-size: 1.5rem; }
   section.quienessomos__section2 {
     margin-top: 20px;
@@ -577,7 +581,6 @@ h1 {
       margin: 10%; }
   /*NOVEDADES 480px*/
   .novedades__titulo {
-    color: #004468;
     font-size: 1.5rem; }
   .contenedor {
     display: grid;
@@ -600,7 +603,7 @@ h1 {
         .contenedor .cont1 .card .card img {
           width: 250px;
           height: auto; }
-        .contenedor .cont1 .card .card h4 {
+        .contenedor .cont1 .card .card__h4 {
           color: #004468;
           font-size: 1.2rem;
           width: 16rem; }
@@ -648,10 +651,8 @@ h1 {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px; }
-    .quienessomos__section .quienessomos__titulo h2 {
-      color: #004468;
-      font-weight: bold;
-      font-size: 3rem; }
+    .quienessomos__section .quienessomos__titulo h1 {
+      color: #004468; }
 
 .quienessomos__section2 {
   margin-top: 20px;
@@ -663,16 +664,17 @@ h1 {
   .quienessomos__section2 .quienessomos__div {
     width: 400px; }
     .quienessomos__section2 .quienessomos__div .quienessomos__h3 {
-      color: #004468;
+      color: #345d9d;
       text-align: left;
       margin-bottom: 15px;
-      font-weight: 600; }
+      font-weight: bold; }
     .quienessomos__section2 .quienessomos__div .quienessomos__p {
-      color: #000000;
+      color: colorParrafos;
       text-align: left; }
     .quienessomos__section2 .quienessomos__div .quienessomos__icon {
-      width: 80px;
-      height: 80px; }
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px; }
 
 .quienessomos__section3 .quienessomos__titulo {
   display: flex;
@@ -680,9 +682,7 @@ h1 {
   margin-top: 30px;
   margin-bottom: 30px; }
   .quienessomos__section3 .quienessomos__titulo h2 {
-    color: #004468;
-    font-weight: bold;
-    font-size: 3rem; }
+    color: #004468; }
 
 .hero-productos {
   overflow: hidden;
@@ -725,9 +725,7 @@ h1 {
   align-content: center;
   text-align: center; }
   .productostitulo h2 {
-    color: #004468;
-    font-size: 3rem;
-    font-weight: 600; }
+    color: #004468; }
   .productostitulo p {
     color: #000000;
     font-size: 1.4rem;
@@ -739,8 +737,6 @@ h1 {
 
 .novedades__titulo {
   color: #004468;
-  font-weight: bold;
-  font-size: 3rem;
   text-align: center;
   margin-top: 1.8rem; }
 
@@ -753,7 +749,8 @@ h1 {
   .contenedor .cont1 {
     display: flex;
     justify-content: space-around;
-    gap: 20px; }
+    gap: 20px;
+    width: 70%; }
     .contenedor .cont1 .card {
       width: 30%;
       height: 550;
@@ -762,7 +759,7 @@ h1 {
       flex-direction: column;
       align-content: center;
       border: none; }
-      .contenedor .cont1 .card .card h4 {
+      .contenedor .cont1 .card .card__h4 {
         color: #004468;
         width: 20rem;
         align-content: flex-start;
@@ -779,8 +776,6 @@ h1 {
 
 .titulo-contacto {
   color: #004468;
-  font-weight: bold;
-  font-size: 3rem;
   text-align: center;
   margin-top: 1.8rem; }
 

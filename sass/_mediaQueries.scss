@@ -116,13 +116,19 @@
     /*QUIENES SOMOS 768px*/
 
     .quienessomos__section {
-        .quienessomos__titulo h2 {
-            color: #004468;
-            font-size: 2rem;
-            text-align: center;
-            margin-left: 10%;
-            margin-right: 10%;
+
+        .quienessomos__titulo{
+
+            .quienessomos__h1 {
+                color: $colorTítulos;
+                font-size: 2rem;
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
         }
+      
 
     }
 
@@ -158,13 +164,15 @@
 
     .quienessomos__section3{
 
-        .quienessomos__titulo h2 {
-            color: #004468;
-            font-size: 2rem;
-            text-align: center;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
+        .quienessomos__titulo{
+
+            .quienessomos__h2 {
+                font-size: 2rem;
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        } 
     }
 
     /*PRODUCTOS 768px*/
@@ -248,7 +256,6 @@
 
     .novedades {
         .novedades__titulo {
-            color: #004468;
             font-size: 2rem;
             text-align: center;
             margin-left: 10%;
@@ -554,8 +561,7 @@
             margin-top: 30px;
             margin-bottom: 30px;
 
-            .quienessomos__titulo h2 {
-                color: #004468;
+            .quienessomos__h1 {
                 font-size: 1.5rem;
             }
 
@@ -698,19 +704,18 @@
     /*NOVEDADES 480px*/
 
     .novedades__titulo {
-        color: #004468;
         font-size: 1.5rem;
 
     }
 
-    .contenedor {
+        .contenedor {
 
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        row-gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            row-gap: 10px;
 
-        .cont1 {
+            .cont1 {
             flex-direction: column;
             justify-content: space-around;
             gap: 20px;
@@ -731,7 +736,7 @@
 
                 }
 
-                .card h4 {
+                .card__h4 {
                     color: #004468;
                     font-size: 1.2rem;
                     width: 16rem;

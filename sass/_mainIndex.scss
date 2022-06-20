@@ -47,7 +47,6 @@
 
     p {
         color: colorParrafos;
-        font-size: $tamañoBajada;
         padding-left: 100px;
         padding-right: 100px;
         margin-bottom: 50px;
@@ -81,8 +80,6 @@
         }
 
         h3 {
-            font-size: 1.3rem;
-            font-weight: bold;
             margin-top: 10px;
             margin-left: 10px;
         }
@@ -123,12 +120,6 @@
             margin-bottom: 20px;
             line-height: 100%;
             width: 450px;
-
-        }
-
-        p {
-            font-size: $tamañoBajada;
-
 
         }
 
