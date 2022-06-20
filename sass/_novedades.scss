@@ -1,0 +1,55 @@
+.novedades__titulo {
+    color: #004468;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1.8rem;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 50px 30px;
+
+    .cont1 {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+
+        .card {
+            width: 30%;
+            height: 550;
+            padding: 50px 30px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            border: none;
+
+            .card h4 {
+                color: #004468;
+                width: 20rem;
+                align-content: flex-start;
+                margin-top: 10px;
+                font-weight: 600;
+            }
+            
+            .card p {
+                width: 20rem;
+                margin-top: 10px;
+            }
+        }
+        
+    }
+
+}
+
+
+
+
+
+
+
+
