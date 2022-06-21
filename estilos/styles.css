@@ -56,8 +56,8 @@ h1 {
 .hometitulo {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  text-align: center; }
+  text-align: center;
+  align-items: center; }
   .hometitulo .hometitulo__h2 {
     color: #004468;
     margin-bottom: 30px; }
@@ -65,7 +65,8 @@ h1 {
     color: colorParrafos;
     padding-left: 100px;
     padding-right: 100px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    width: 60%; }
   .hometitulo .btn_home {
     width: 180px;
     height: 45px;
@@ -287,12 +288,9 @@ h1 {
   padding: 50px 30px; }
 
 .card {
-  width: 30%;
   height: 550;
-  padding: 50px 30px;
   display: flex;
   flex-direction: column;
-  align-content: center;
   border: none; }
 
 .card h4 {
@@ -389,7 +387,8 @@ h1 {
   .hometitulo h2 {
     font-size: 2rem; }
   .hometitulo p {
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    width: auto; }
   .hometitulo .btn_home {
     display: none; }
   .propuesta {
@@ -525,9 +524,7 @@ h1 {
       justify-content: space-around;
       gap: 20px; }
       .contenedor .cont1 .card {
-        width: 222px;
         height: 550;
-        padding: 25px 30px;
         display: flex;
         flex-direction: column;
         border: none; }
@@ -548,9 +545,7 @@ h1 {
       justify-content: space-around;
       gap: 20px; }
       .contenedor .cont2 .card {
-        width: 222px;
         height: 550;
-        padding: 25px 30px;
         display: flex;
         flex-direction: column;
         border: none; }
@@ -811,8 +806,6 @@ h1 {
       justify-content: space-around;
       gap: 20px; }
       .contenedor .cont1 .card {
-        width: auto;
-        padding: 25px 50px;
         display: flex;
         flex-direction: column;
         align-items: center;

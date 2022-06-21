@@ -36,8 +36,8 @@
 .hometitulo {
     display: flex;
     flex-direction: column;
-    align-content: center;
     text-align: center;
+    align-items: center;
 
     .hometitulo__h2 {
         color: $colorTítulos;
@@ -50,6 +50,8 @@
         padding-left: 100px;
         padding-right: 100px;
         margin-bottom: 50px;
+        width: 60%
+
 
     }
 

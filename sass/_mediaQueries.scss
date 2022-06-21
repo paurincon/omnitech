@@ -37,6 +37,7 @@
 
         p {
             font-size: 1.4rem;
+            width: auto;
         }
 
         .btn_home {
@@ -283,9 +284,8 @@
             gap: 20px;
 
             .card {
-                width: 222px;
+                
                 height: 550;
-                padding: 25px 30px;
                 display: flex;
                 flex-direction: column;
                 border: none;
@@ -319,9 +319,8 @@
             gap: 20px;
 
             .card {
-                width: 222px;
+                
                 height: 550;
-                padding: 25px 30px;
                 display: flex;
                 flex-direction: column;
                 border: none;
@@ -759,8 +758,6 @@
                 gap: 20px;
 
                 .card {
-                    width: auto;
-                    padding: 25px 50px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
