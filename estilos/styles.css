@@ -69,7 +69,6 @@ h1 {
   .hometitulo .btn_home {
     width: 180px;
     height: 45px;
-    margin-left: 851px;
     margin-bottom: 50px; }
 
 .propuesta {
@@ -245,7 +244,7 @@ h1 {
     font-size: 1.6rem;
     color: white;
     text-align: left;
-    width: 800px;
+    width: 50rem;
     margin-left: 90px;
     margin-bottom: 40px; }
   .hero-productos button {
@@ -480,7 +479,7 @@ h1 {
     .hero-productos .hero-productos__p {
       font-size: 1rem;
       text-align: center;
-      width: 590px;
+      width: 30rem;
       margin-left: 0px;
       margin-bottom: 0px; }
     .hero-productos .hero-productos__button {
