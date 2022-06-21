@@ -118,7 +118,7 @@
 
     .quienessomos__section {
 
-        .quienessomos__titulo{
+        .quienessomos__titulo {
 
             .quienessomos__h1 {
                 color: $colorTítulos;
@@ -129,7 +129,7 @@
             }
 
         }
-      
+
 
     }
 
@@ -163,9 +163,9 @@
 
     }
 
-    .quienessomos__section3{
+    .quienessomos__section3 {
 
-        .quienessomos__titulo{
+        .quienessomos__titulo {
 
             .quienessomos__h2 {
                 font-size: 2rem;
@@ -173,7 +173,7 @@
                 margin-left: 10%;
                 margin-right: 10%;
             }
-        } 
+        }
     }
 
     /*PRODUCTOS 768px*/
@@ -273,8 +273,8 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
-                            "cont1"
-                            "cont2";
+            "cont1"
+            "cont2";
         row-gap: 10px;
 
         .cont1 {
@@ -284,7 +284,7 @@
             gap: 20px;
 
             .card {
-                
+
                 height: 550;
                 display: flex;
                 flex-direction: column;
@@ -319,7 +319,7 @@
             gap: 20px;
 
             .card {
-                
+
                 height: 550;
                 display: flex;
                 flex-direction: column;
@@ -346,7 +346,7 @@
             }
 
         }
-        
+
 
     }
 
@@ -745,84 +745,84 @@
 
     }
 
-        .contenedor {
+    .contenedor {
 
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-            row-gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 10px;
 
-            .cont1 {
+        .cont1 {
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 20px;
+
+            .card {
+                display: flex;
                 flex-direction: column;
-                justify-content: space-around;
-                gap: 20px;
+                align-items: center;
+                justify-content: space-between;
+                border: none;
+                align-content: center;
 
-                .card {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: space-between;
-                    border: none;
-                    align-content: center;
+                img {
+                    width: 250px;
+                    height: auto;
 
-                    img {
-                        width: 250px;
-                        height: auto;
+                }
 
-                    }
+                h4 {
+                    color: #004468;
+                    font-size: 1.2rem;
+                    width: 16rem;
 
-                    h4 {
-                        color: #004468;
-                        font-size: 1.2rem;
-                        width: 16rem;
-                        
 
-                    }
+                }
 
-                    p {
-                        width: 16rem;
-                        
-                    }
+                p {
+                    width: 16rem;
 
                 }
 
             }
 
-            .cont2 {
+        }
+
+        .cont2 {
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 20px;
+
+            .card {
+                width: auto;
+                padding: 25px 50px;
+                display: flex;
                 flex-direction: column;
-                justify-content: space-around;
-                gap: 20px;
+                align-items: center;
+                justify-content: space-between;
+                border: none;
+                align-content: center;
 
-                .card {
-                    width: auto;
-                    padding: 25px 50px;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: space-between;
-                    border: none;
-                    align-content: center;
-
-                    img {
-                        width: 250px;
-                        height: auto;
-
-                    }
-
-                    h4 {
-                        color: #004468;
-                        font-size: 1.2rem;
-                        width: 16rem;
-
-                    }
-
-                    p {
-                        width: 16rem;
-                    }
+                img {
+                    width: 250px;
+                    height: auto;
 
                 }
 
+                h4 {
+                    color: #004468;
+                    font-size: 1.2rem;
+                    width: 16rem;
+
+                }
+
+                p {
+                    width: 16rem;
+                }
+
             }
+
+        }
 
     }
 
