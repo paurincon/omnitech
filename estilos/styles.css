@@ -173,6 +173,203 @@ h1 {
 .diferencial {
   color: #345d9d; }
 
+.img-qs img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover; }
+
+.quienessomos__section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 145px;
+  overflow: hidden; }
+  .quienessomos__section .quienessomos__titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    .quienessomos__section .quienessomos__titulo h1 {
+      color: #004468; }
+
+.quienessomos__section2 {
+  margin-top: 20px;
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+  .quienessomos__section2 .quienessomos__div {
+    width: 400px; }
+    .quienessomos__section2 .quienessomos__div .quienessomos__h3 {
+      color: #345d9d;
+      text-align: left;
+      margin-bottom: 15px;
+      font-weight: bold; }
+    .quienessomos__section2 .quienessomos__div .quienessomos__p {
+      color: colorParrafos;
+      text-align: left; }
+    .quienessomos__section2 .quienessomos__div .quienessomos__icon {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px; }
+
+.quienessomos__section3 .quienessomos__titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .quienessomos__section3 .quienessomos__titulo h2 {
+    color: #004468; }
+
+.hero-productos {
+  overflow: hidden;
+  position: relative;
+  background-image: url("../assets/background-productos.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 40px; }
+  .hero-productos h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    color: white;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 90px; }
+  .hero-productos p {
+    font-size: 1.6rem;
+    color: white;
+    text-align: left;
+    width: 800px;
+    margin-left: 90px;
+    margin-bottom: 40px; }
+  .hero-productos button {
+    width: 150px;
+    height: 45px;
+    margin-left: 90px;
+    background-color: #0074b5;
+    color: white;
+    border: 1px solid #0074b5;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.2rem; }
+
+.productostitulo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center; }
+  .productostitulo h2 {
+    color: #004468; }
+  .productostitulo p {
+    color: #000000;
+    font-size: 1.4rem;
+    padding-left: 100px;
+    padding-right: 100px; }
+
+.productos__contenedor .productos__card h3 {
+  color: #004468; }
+
+.novedades__titulo {
+  color: #004468;
+  text-align: center;
+  margin-top: 1.8rem; }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 50px 30px; }
+
+.card {
+  width: 30%;
+  height: 550;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: none; }
+
+.card h4 {
+  color: #004468;
+  width: 20rem;
+  align-content: flex-start;
+  margin-top: 10px;
+  font-weight: 600; }
+
+.card p {
+  width: 20rem;
+  margin-top: 10px; }
+
+.cont1 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; }
+
+.cont2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px; }
+
+.img-contacto img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover; }
+
+.titulo-contacto {
+  color: #004468;
+  text-align: center;
+  margin-top: 1.8rem; }
+
+.btn {
+  width: 110px;
+  height: 45px;
+  margin-left: 90px;
+  background-color: #0074b5;
+  color: white;
+  border: 1px solid #0074b5;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1.2rem; }
+
+.form-select {
+  margin-bottom: 1rem; }
+
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 20px; }
+
+.form-select-sm {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.info-oficinas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10%;
+  gap: 40px; }
+  .info-oficinas .oficina__div {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+    .info-oficinas .oficina__div img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 10px; }
+    .info-oficinas .oficina__div h2 {
+      color: #004468; }
+    .info-oficinas .oficina__div p {
+      width: auto;
+      font-size: 0.9rem; }
+
 /*MEDIA QUERIES min-width=desde  max-width=hasta*/
 /*MEDIA QUERIE PARA TABLETS 768px*/
 @media screen and (max-width: 768px) {
@@ -345,6 +542,29 @@ h1 {
           align-content: flex-start;
           margin-top: 10px; }
         .contenedor .cont1 .card p {
+          width: 10rem; }
+    .contenedor .cont2 {
+      grid-area: cont2;
+      display: flex;
+      justify-content: space-around;
+      gap: 20px; }
+      .contenedor .cont2 .card {
+        width: 222px;
+        height: 550;
+        padding: 25px 30px;
+        display: flex;
+        flex-direction: column;
+        border: none; }
+        .contenedor .cont2 .card img {
+          width: 160px;
+          height: auto; }
+        .contenedor .cont2 .card h4 {
+          color: #004468;
+          font-size: 1.2rem;
+          width: 10rem;
+          align-content: flex-start;
+          margin-top: 10px; }
+        .contenedor .cont2 .card p {
           width: 10rem; }
   /*CONTACTO 768px*/
   h2.titulo-contacto {
@@ -600,14 +820,36 @@ h1 {
         justify-content: space-between;
         border: none;
         align-content: center; }
-        .contenedor .cont1 .card .card img {
+        .contenedor .cont1 .card img {
           width: 250px;
           height: auto; }
-        .contenedor .cont1 .card .card__h4 {
+        .contenedor .cont1 .card h4 {
           color: #004468;
           font-size: 1.2rem;
           width: 16rem; }
-        .contenedor .cont1 .card .card p {
+        .contenedor .cont1 .card p {
+          width: 16rem; }
+    .contenedor .cont2 {
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 20px; }
+      .contenedor .cont2 .card {
+        width: auto;
+        padding: 25px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+        align-content: center; }
+        .contenedor .cont2 .card img {
+          width: 250px;
+          height: auto; }
+        .contenedor .cont2 .card h4 {
+          color: #004468;
+          font-size: 1.2rem;
+          width: 16rem; }
+        .contenedor .cont2 .card p {
           width: 16rem; }
   /*CONTACTO 480px*/
   .container .btn {
@@ -632,195 +874,6 @@ h1 {
         display: inline;
         width: auto;
         text-align: center; } }
-
-.img-qs img {
-  width: 100%;
-  height: 600px;
-  object-fit: cover; }
-
-.quienessomos__section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  width: 100%;
-  height: 145px;
-  overflow: hidden; }
-  .quienessomos__section .quienessomos__titulo {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px; }
-    .quienessomos__section .quienessomos__titulo h1 {
-      color: #004468; }
-
-.quienessomos__section2 {
-  margin-top: 20px;
-  margin-bottom: 115px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around; }
-  .quienessomos__section2 .quienessomos__div {
-    width: 400px; }
-    .quienessomos__section2 .quienessomos__div .quienessomos__h3 {
-      color: #345d9d;
-      text-align: left;
-      margin-bottom: 15px;
-      font-weight: bold; }
-    .quienessomos__section2 .quienessomos__div .quienessomos__p {
-      color: colorParrafos;
-      text-align: left; }
-    .quienessomos__section2 .quienessomos__div .quienessomos__icon {
-      width: 60px;
-      height: 60px;
-      margin-bottom: 10px; }
-
-.quienessomos__section3 .quienessomos__titulo {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px; }
-  .quienessomos__section3 .quienessomos__titulo h2 {
-    color: #004468; }
-
-.hero-productos {
-  overflow: hidden;
-  position: relative;
-  background-image: url("../assets/background-productos.jpg");
-  height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 40px; }
-  .hero-productos h1 {
-    font-weight: 600;
-    font-size: 3.8rem;
-    color: white;
-    text-align: left;
-    margin-top: 100px;
-    margin-left: 90px; }
-  .hero-productos p {
-    font-size: 1.6rem;
-    color: white;
-    text-align: left;
-    width: 800px;
-    margin-left: 90px;
-    margin-bottom: 40px; }
-  .hero-productos button {
-    width: 150px;
-    height: 45px;
-    margin-left: 90px;
-    background-color: #0074b5;
-    color: white;
-    border: 1px solid #0074b5;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 1.2rem; }
-
-.productostitulo {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center; }
-  .productostitulo h2 {
-    color: #004468; }
-  .productostitulo p {
-    color: #000000;
-    font-size: 1.4rem;
-    padding-left: 100px;
-    padding-right: 100px; }
-
-.productos__contenedor .productos__card h3 {
-  color: #004468; }
-
-.novedades__titulo {
-  color: #004468;
-  text-align: center;
-  margin-top: 1.8rem; }
-
-.contenedor {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-around;
-  padding: 50px 30px; }
-  .contenedor .cont1 {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    width: 70%; }
-    .contenedor .cont1 .card {
-      width: 30%;
-      height: 550;
-      padding: 50px 30px;
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      border: none; }
-      .contenedor .cont1 .card .card__h4 {
-        color: #004468;
-        width: 20rem;
-        align-content: flex-start;
-        margin-top: 10px;
-        font-weight: 600; }
-      .contenedor .cont1 .card .card p {
-        width: 20rem;
-        margin-top: 10px; }
-
-.img-contacto img {
-  width: 100%;
-  height: 600px;
-  object-fit: cover; }
-
-.titulo-contacto {
-  color: #004468;
-  text-align: center;
-  margin-top: 1.8rem; }
-
-.btn {
-  width: 110px;
-  height: 45px;
-  margin-left: 90px;
-  background-color: #0074b5;
-  color: white;
-  border: 1px solid #0074b5;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 1.2rem; }
-
-.form-select {
-  margin-bottom: 1rem; }
-
-.container {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 20px; }
-
-.form-select-sm {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5; }
-
-.info-oficinas {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10%;
-  gap: 40px; }
-  .info-oficinas .oficina__div {
-    display: flex;
-    flex-direction: column;
-    align-content: center; }
-    .info-oficinas .oficina__div img {
-      width: 40px;
-      height: 40px;
-      margin-bottom: 10px; }
-    .info-oficinas .oficina__div h2 {
-      color: #004468; }
-    .info-oficinas .oficina__div p {
-      width: auto;
-      font-size: 0.9rem; }
 
 .grid {
   display: grid;

@@ -12,40 +12,55 @@
     justify-content: space-around;
     padding: 50px 30px;
 
-    .cont1 {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-        width: 70%;
-
-        .card {
-            width: 30%;
-            height: 550;
-            padding: 50px 30px;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            border: none;
-
-            .card__h4 {
-                color: $colorTítulos;
-                width: 20rem;
-                align-content: flex-start;
-                margin-top: 10px;
-                font-weight: 600;
-            }
-            
-            .card p {
-                width: 20rem;
-                margin-top: 10px;
-            }
-        }
-        
-    }
 
 }
 
+.card {
+    width: 30%;
+    height: 550;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: none;
 
+
+
+
+}
+
+.card h4 {
+    color: #004468;
+    width: 20rem;
+    align-content: flex-start;
+    margin-top: 10px;
+    font-weight: 600;
+
+
+}
+
+.card p {
+    width: 20rem;
+    margin-top: 10px;
+}
+
+
+
+.cont1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+
+}
+
+.cont2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+
+}
 
 
 
