@@ -1,13 +1,7 @@
 .carousel {
     margin-bottom: 50px;
 
-    .carousel-caption {
-        display: flex;
-        flex-direction: column;
-        margin-top: 200px;
-        margin-bottom: 200px;
 
-    }
 
     h1 {
         font-weight: 600;
@@ -50,7 +44,8 @@
         padding-left: 100px;
         padding-right: 100px;
         margin-bottom: 50px;
-        width: 60%
+        width: 60%;
+        
     }
 
     .btn_home {

@@ -446,7 +446,7 @@
 
         .hometitulo__h2 {
 
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             font-weight: 600;
         }
 
@@ -480,8 +480,15 @@
 
             }
 
+            .diferencial {
+                font-size: 1rem;
+                
+            }
+
             .propuesta__desc {
                 text-align: center;
+                margin-bottom: 10px;
+                width: 13rem;
             }
 
         }
@@ -519,6 +526,7 @@
             }
 
         }
+        
 
     }
 
@@ -527,7 +535,7 @@
         align-content: center;
         width: 300px;
         height: 169px;
-        margin-left: 50%;
+        
     }
 
     /*Footer 480px*/

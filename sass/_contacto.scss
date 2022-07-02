@@ -11,15 +11,11 @@
 }
 
 .btn {
+    @extend .boton;
     width: 110px;
     height: 45px;
     margin-left: 90px;
-    background-color: #0074b5;
-    color: white;
-    border: 1px solid #0074b5;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 1.2rem;
+    
 }
 
 
@@ -44,6 +40,7 @@
     justify-content: center;
     margin-bottom: 10%;
     gap: 40px;
+    padding: 2rem;
 
     .oficina__div{
     
