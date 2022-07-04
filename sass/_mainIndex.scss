@@ -1,25 +1,29 @@
 .carousel {
     margin-bottom: 50px;
 
+    .carousel-caption{
+        align-content: center;
+        margin-bottom: 9.5rem;
 
-
-    h1 {
-        font-weight: 600;
-        font-size: 3.8rem;
-
+        h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+    
+        }
+    
+        span {
+            font-weight: 600;
+            font-size: 2.5rem;
+    
+    
+        }
+    
+        p {
+            font-size: 1.6rem;
+    
+        }
     }
-
-    span {
-        font-weight: 600;
-        font-size: 3.8rem;
-
-
-    }
-
-    p {
-        font-size: 1.6rem;
-
-    }
+   
 
 }
 
@@ -58,11 +62,6 @@
 
 
 }
-
-
-
-
-
 
 .propuesta {
     width: auto;

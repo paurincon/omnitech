@@ -414,19 +414,19 @@
 
     .carousel .carousel-caption {
 
-        margin-bottom: auto;
+        margin-bottom: 20px;
 
         h1 {
             font-weight: 600;
-            font-size: 1.5rem;
-            margin-bottom: -5px;
+            font-size: 1.2rem;
+            margin-bottom: 0px;
 
         }
 
         span {
             font-weight: 600;
-            font-size: 1.5rem;
-            margin-bottom: 18px;
+            font-size: 1.2rem;
+
 
         }
 
@@ -482,7 +482,7 @@
 
             .diferencial {
                 font-size: 1rem;
-                
+
             }
 
             .propuesta__desc {
@@ -511,7 +511,7 @@
             text-align: center;
 
             .video-institucional__h2 {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 font-weight: 600;
                 margin-bottom: 20px;
                 width: 100%;
@@ -526,7 +526,7 @@
             }
 
         }
-        
+
 
     }
 
@@ -535,7 +535,7 @@
         align-content: center;
         width: 300px;
         height: 169px;
-        
+
     }
 
     /*Footer 480px*/
@@ -674,7 +674,7 @@
 
         .hero-productos__h1 {
             font-weight: 600;
-            font-size: 2rem;
+            font-size: 1.5rem;
             text-align: center;
             margin-top: 0px;
             margin-left: 0px;
@@ -708,11 +708,11 @@
 
     .productostitulo {
 
-        .productostitulo h2 {
+        .productostitulo__h2 {
             font-size: 1.5;
         }
 
-        .productostitulo p {
+        p {
             display: none;
         }
 
@@ -748,7 +748,7 @@
 
     /*NOVEDADES 480px*/
 
-    .novedades__titulo {
+    .novedades .novedades__titulo {
         font-size: 1.5rem;
 
     }
@@ -875,6 +875,100 @@
         }
 
 
+    }
+
+}
+
+
+@media screen and (max-width:320px) {
+
+    //Quienes somos 
+    .img-qs {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+
+    }
+
+    .quienessomos__section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 145px;
+        overflow: hidden;
+
+        .quienessomos__titulo {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+            .quienessomos__h1 {
+                font-size: 1.5rem;
+            }
+
+        }
+
+    }
+
+
+    section.quienessomos__section2 {
+        margin-top: 20px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        row-gap: 10%;
+        align-items: center;
+
+        .quienessomos__div {
+            width: 80%;
+            margin-bottom: 45%;
+            margin-top: 10%;
+
+            .quienessomos__h3 {
+                color: $colorTítulos;
+                text-align: center;
+                margin-bottom: 15px;
+                width: 100%;
+
+            }
+
+            .quienessomos__p {
+                color: #000000;
+                text-align: center;
+                height: 160px;
+                width: 100%;
+            }
+
+
+            .quienessomos__icon {
+                width: 50px;
+                height: 50px;
+                margin-left: 82px;
+                margin-bottom: 20px;
+
+            }
+
+        }
+
+    }
+
+    .quienessomos__section3 {
+        display: none;
+    }
+
+    //Productos
+    .hero-productos .hero-productos__p {
+        padding: 0px 25px;
+    }
+
+    //Contacto
+    .titulo-contacto{
+        font-size: 1.5rem;
     }
 
 }

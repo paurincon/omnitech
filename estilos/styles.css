@@ -37,14 +37,17 @@ h1 {
 
 .carousel {
   margin-bottom: 50px; }
-  .carousel h1 {
-    font-weight: 600;
-    font-size: 3.8rem; }
-  .carousel span {
-    font-weight: 600;
-    font-size: 3.8rem; }
-  .carousel p {
-    font-size: 1.6rem; }
+  .carousel .carousel-caption {
+    align-content: center;
+    margin-bottom: 9.5rem; }
+    .carousel .carousel-caption h1 {
+      font-weight: 600;
+      font-size: 2.5rem; }
+    .carousel .carousel-caption span {
+      font-weight: 600;
+      font-size: 2.5rem; }
+    .carousel .carousel-caption p {
+      font-size: 1.6rem; }
 
 /*END ESTILOS SLIDER*/
 /*ESTILOS PROPUESTA*/
@@ -324,7 +327,8 @@ h1 {
 .titulo-contacto {
   color: #004468;
   text-align: center;
-  margin-top: 1.8rem; }
+  margin-top: 1.8rem;
+  font-size: 2rem; }
 
 .btn {
   width: 110px;
@@ -599,15 +603,14 @@ h1 {
   /*Main*/
   /*Sección Slider 480px*/
   .carousel .carousel-caption {
-    margin-bottom: auto; }
+    margin-bottom: 20px; }
     .carousel .carousel-caption h1 {
       font-weight: 600;
-      font-size: 1.5rem;
-      margin-bottom: -5px; }
+      font-size: 1.2rem;
+      margin-bottom: 0px; }
     .carousel .carousel-caption span {
       font-weight: 600;
-      font-size: 1.5rem;
-      margin-bottom: 18px; }
+      font-size: 1.2rem; }
     .carousel .carousel-caption p {
       display: none; }
   /*Sección Propuesta 480px*/
@@ -651,7 +654,7 @@ h1 {
       align-items: center;
       text-align: center; }
       .video-institucional .video-institucional__desc .video-institucional__h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
         margin-bottom: 20px;
         width: 100%;
@@ -749,7 +752,7 @@ h1 {
     height: 400px; }
     .hero-productos .hero-productos__h1 {
       font-weight: 600;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-align: center;
       margin-top: 0px;
       margin-left: 0px; }
@@ -771,9 +774,9 @@ h1 {
       font-size: 1rem;
       margin-left: 0px;
       margin-top: 8%; }
-  .productostitulo .productostitulo h2 {
+  .productostitulo .productostitulo__h2 {
     font-size: 1.5; }
-  .productostitulo .productostitulo p {
+  .productostitulo p {
     display: none; }
   .productos__contenedor {
     display: flex;
@@ -794,7 +797,7 @@ h1 {
       align-content: center;
       margin: 10%; }
   /*NOVEDADES 480px*/
-  .novedades__titulo {
+  .novedades .novedades__titulo {
     font-size: 1.5rem; }
   .contenedor {
     display: grid;
@@ -866,6 +869,61 @@ h1 {
         display: inline;
         width: auto;
         text-align: center; } }
+
+@media screen and (max-width: 320px) {
+  .img-qs {
+    width: 100%;
+    height: 600px;
+    object-fit: cover; }
+  .quienessomos__section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 145px;
+    overflow: hidden; }
+    .quienessomos__section .quienessomos__titulo {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      .quienessomos__section .quienessomos__titulo .quienessomos__h1 {
+        font-size: 1.5rem; }
+  section.quienessomos__section2 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    row-gap: 10%;
+    align-items: center; }
+    section.quienessomos__section2 .quienessomos__div {
+      width: 80%;
+      margin-bottom: 45%;
+      margin-top: 10%; }
+      section.quienessomos__section2 .quienessomos__div .quienessomos__h3 {
+        color: #004468;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 100%; }
+      section.quienessomos__section2 .quienessomos__div .quienessomos__p {
+        color: #000000;
+        text-align: center;
+        height: 160px;
+        width: 100%; }
+      section.quienessomos__section2 .quienessomos__div .quienessomos__icon {
+        width: 50px;
+        height: 50px;
+        margin-left: 82px;
+        margin-bottom: 20px; }
+  .quienessomos__section3 {
+    display: none; }
+  .hero-productos .hero-productos__p {
+    padding: 0px 25px; }
+  .titulo-contacto {
+    font-size: 1.5rem; } }
 
 .grid {
   display: grid;
